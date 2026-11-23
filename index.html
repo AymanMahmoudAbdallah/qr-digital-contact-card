@@ -37,7 +37,8 @@
     transition:transform .25s ease,box-shadow .25s ease;
     animation:rise .6s ease both;
   }
-  @media (min-width:520px){
+  @media (min-width:620px){
+    .wrap{max-width:470px}
     .card{flex-direction:row;text-align:left;gap:16px}
   }
   .card.fb{animation-delay:.12s}
@@ -60,8 +61,8 @@
     transition:filter .2s ease,transform .15s ease;
     box-shadow:0 6px 16px rgba(15,23,42,.18);
   }
-  @media (min-width:520px){
-    .btn{width:auto;flex:0 0 auto}
+  @media (min-width:620px){
+    .btn{width:auto;flex:0 0 auto;font-size:.86rem;padding:11px 15px}
   }
   .btn.fb{background:linear-gradient(160deg,var(--fb),var(--fb-dark))}
   .btn.wa{background:linear-gradient(160deg,var(--wa),var(--wa-dark))}
