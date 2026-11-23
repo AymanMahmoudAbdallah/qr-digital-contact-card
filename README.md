@@ -11,7 +11,7 @@ The QR code points at this site's URL only, never at Facebook or WhatsApp
 directly. To change where the buttons go:
 1. Open `index.html` in the repository (pencil icon on GitHub).
 2. Find the Facebook anchor (`facebook.com/share/...`) or the WhatsApp anchor
-   (`wa.me/201016725083`) and replace the `href` value.
+   (`wa.me/201097872574`) and replace the `href` value.
 3. Commit. GitHub Pages redeploys in about a minute; the printed QR code keeps
    working unchanged.
 
