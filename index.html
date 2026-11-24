@@ -55,6 +55,7 @@
   }
   .card.fb{animation-delay:.12s}
   .card.wa{animation-delay:.22s}
+  .card.menu{animation-delay:.32s}
   .card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(107,74,31,.22)}
   .icon{
     flex:0 0 auto;width:54px;height:54px;border-radius:16px;
@@ -62,6 +63,7 @@
   }
   .icon.fb{background:linear-gradient(160deg,var(--fb),var(--fb-dark))}
   .icon.wa{background:linear-gradient(160deg,var(--wa),var(--wa-dark))}
+  .icon.menu{background:linear-gradient(160deg,var(--gold),var(--gold-deep))}
   .icon svg{width:30px;height:30px;fill:currentColor}
   .card .txt{flex:1;min-width:0}
   .card .txt b{display:block;font-size:1.02rem;font-weight:700;color:#3d2f14}
@@ -78,6 +80,7 @@
   }
   .btn.fb{background:linear-gradient(160deg,var(--fb),var(--fb-dark))}
   .btn.wa{background:linear-gradient(160deg,var(--wa),var(--wa-dark))}
+  .btn.menu{background:linear-gradient(160deg,var(--gold),var(--gold-deep))}
   .btn:hover{filter:brightness(1.08)}
   .btn:active{transform:scale(.96)}
   .btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
@@ -124,6 +127,16 @@
         <span>Chat with us directly &#183; 01097872574</span>
       </div>
       <a class="btn wa" href="https://wa.me/201097872574" target="_blank" rel="noopener noreferrer" aria-label="Contact Us on WhatsApp">Contact Us on WhatsApp</a>
+    </section>
+    <section class="card menu" aria-label="Menu">
+      <div class="icon menu" aria-hidden="true">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.7 5.05A1.55 1.55 0 1 1 4.15 6.6 1.55 1.55 0 0 1 5.7 5.05Zm2.8.2h11a1 1 0 0 1 0 2h-11a1 1 0 0 1 0-2Zm-2.8 4.7a1.55 1.55 0 1 1-1.55 1.55A1.55 1.55 0 0 1 5.7 9.95Zm2.8.45h11a1 1 0 0 1 0 2h-11a1 1 0 0 1 0-2Zm-2.8 4.6a1.55 1.55 0 1 1-1.55 1.55A1.55 1.55 0 0 1 5.7 15Zm2.8.5h11a1 1 0 0 1 0 2h-11a1 1 0 0 1 0-2Z"/></svg>
+      </div>
+      <div class="txt" lang="ar" dir="rtl">
+        <b>المنيو</b>
+        <span>شوف منتجاتنا وأسعارنا كاملة</span>
+      </div>
+      <a class="btn menu" href="menu.html" aria-label="افتح المنيو">افتح المنيو</a>
     </section>
   </main>
   <footer>Thank you for connecting with us.</footer>
